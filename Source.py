@@ -1,7 +1,6 @@
 import json
 import csv
 import pickle
-import pandas as pd
 
 
 # Create a base class called Source that has a read_file method
@@ -15,5 +14,5 @@ class Source:
         self.contents = self.read_file()
 
     def read_file(self):
-        return ???
+        raise NotImplementedError("subclasses must implement read_file")
 
