@@ -1,0 +1,29 @@
+Write a class that:
+
+Gets a user's budget
+Gets a user's destination based on budget
+Displays a confirmation message to the user
+
+
+DATA:
+Country,Cost
+France,1500
+Columbia,1300
+Japan,1100
+
+
+Plan
+--------------------
+- user_budget
+- cost/country 
+- user_destination 
+
+
+Methods:
+============
+- get_user_budget
+- get_possible_destinations_based_on_budget
+- display_confirmation_msg
+- get_user_destination
+- read_source_data
+
