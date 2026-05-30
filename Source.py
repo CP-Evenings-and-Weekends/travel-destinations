@@ -9,10 +9,10 @@ import pickle
 #     You might need to add some helper methods as well to clean/process the file contents
 class Source:
 
-    def __init__(self, file_type):
-        self.file_type = file_type
-        self.contents = self.read_file()
+    def __init__(self, path):
+        self.path = path
+        self.contents = self.read_file(path)
 
-    def read_file(self):
+    def read_file(self, path):
         raise NotImplementedError("subclasses must implement read_file")
 
