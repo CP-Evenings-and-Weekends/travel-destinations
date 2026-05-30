@@ -1,6 +1,6 @@
 # Travel Destinations
 
-Congratulations on finishing your `TravelPackage` class in the lesson.  As often happens, you just got new requirements: the app needs to read source data from three different file formats — **CSV**, **JSON**, and **pickle** — and the choice of format should be swappable without rewriting the rest of the app.
+Congratulations on finishing your `TravelApp` class in the lesson.  As often happens, you just got new requirements: the app needs to read source data from three different file formats — **CSV**, **JSON**, and **pickle** — and the choice of format should be swappable without rewriting the rest of the app.
 
 To handle that, there's a new `Source` class.  Your job is to subclass it for each file type and let `TravelApp` use the right `Source` via composition.
 
