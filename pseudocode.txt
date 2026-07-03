@@ -27,3 +27,42 @@ Methods:
 - get_user_destination
 - read_source_data
 
+Classes I need:
+
+__class source__
+
+- Parent class for all travel destinations
+
+- Stores country and cost
+
+- Has a method to check if the user's budget is enough
+
+__class France(source)__
+
+- Country is France
+
+- Cost is 1500
+
+__class Colombia(source)__
+
+- Country is Colombia
+
+- Cost is 1300
+
+__class Japan(source)__
+
+- Country is Japan
+
+- Cost is 1100
+
+__class TravelApp__
+
+- Uses a source object
+
+- Gets the user's budget
+
+- Checks which destinations the user can afford
+
+- Lets the user choose a destination
+
+- Displays a confirmation message
