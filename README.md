@@ -1,6 +1,6 @@
 # Travel Destinations
 
-Congratulations on finishing your `TravelApp` class in the lesson.  As often happens, you just got new requirements: the app needs to read source data from three different file formats — **CSV**, **JSON**, and **pickle** — and the choice of format should be swappable without rewriting the rest of the app.
+In the lesson you built `TravelPackage`.  This repo's `travel_app.py` ships a fuller version of the same idea called `TravelApp` (type hints, `filter` + `lambda`, and an `input_func` parameter so tests can fake user input); read it first, because it is the class you'll extend.  As often happens, you just got new requirements: the app needs to read source data from three different file formats — **CSV**, **JSON**, and **pickle** — and the choice of format should be swappable without rewriting the rest of the app.
 
 To handle that, there's a new `Source` class.  Your job is to subclass it for each file type and let `TravelApp` use the right `Source` via composition.
 
